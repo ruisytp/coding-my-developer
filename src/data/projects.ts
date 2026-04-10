@@ -16,8 +16,8 @@ export const projects: Project[] = [
     description: '使用 Vue3 + TypeScript + Tailwind CSS 构建的现代化个人作品集网站，支持深色主题和响应式设计。',
     image: '/project1.jpg',
     technologies: ['Vue3', 'TypeScript', 'Tailwind CSS', 'Vite'],
-    githubUrl: 'https://github.com/yourusername/portfolio',
-    demoUrl: 'https://yourportfolio.com'
+    githubUrl: 'https://github.com/ruisytp/my-developer-vue',
+    demoUrl: 'https://coding-my-developer-8y9ak9i88-ruisytps-projects.vercel.app/'
   },
   {
     id: 2,
