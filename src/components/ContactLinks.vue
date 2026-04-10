@@ -4,26 +4,26 @@ const contactLinks = [
   {
     name: '邮箱',
     icon: '📧',
-    url: 'mailto:zhangsan@gmail.com',
-    value: 'zhangsan@gmail.com'
+    url: 'mailto:YTP@gmail.com',
+    value: 'YTP@gmail.com'
   },
   {
     name: 'GitHub',
     icon: '🐱',
-    url: 'https://github.com/zhangsan',
-    value: 'zhangsan'
+    url: 'https://github.com/YTP',
+    value: 'YTP@GitHub'
   },
   {
     name: 'LinkedIn',
     icon: '🔗',
-    url: 'https://linkedin.com/in/zhangsan',
-    value: 'zhangsan'
+    url: 'https://linkedin.com/in/YTP',
+    value: 'YTP@LinkedIn'
   },
   {
     name: 'Twitter',
     icon: '🐦',
-    url: 'https://twitter.com/zhangsan',
-    value: '@zhangsan'
+    url: 'https://twitter.com/YTP',
+    value: 'YTP@Twitter'
   }
 ];
 </script>
@@ -36,7 +36,7 @@ const contactLinks = [
       :href="link.url"
       target="_blank"
       rel="noopener noreferrer"
-      class="flex-1 flex items-center justify-center gap-2 text-[var(--color-text-secondary)] hover:text-[var(--color-primary-400)] transition-colors duration-300 group h-full px-2"
+      class="flex-1 flex items-center justify-center gap-2 text-[var(--color-primary-400)] hover:text-[var(--color-primary-500)] transition-colors duration-300 group h-full px-2"
     >
       <span class="text-lg group-hover:scale-110 transition-transform duration-300">
         {{ link.icon }}

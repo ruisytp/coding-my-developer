@@ -5,7 +5,7 @@ import ContactLinks from './components/ContactLinks.vue';
 
 // 页面数据
 const profile = {
-  name: '张三',
+  name: 'YTP',
   title: '全栈开发工程师',
   description: '专注于构建现代化 Web 应用程序，热爱技术，追求卓越。'
 };
