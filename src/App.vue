@@ -12,7 +12,7 @@ const profile = {
 
 const aboutMe = {
   title: '关于我',
-  description: '我是一名全栈开发工程师，专注于构建现代化、高性能的 Web 应用程序。拥有丰富的前端和后端开发经验，擅长使用 Vue.js、React、Node.js 等技术栈。我热爱学习新技术，注重代码质量和用户体验。'
+  description: '我是一名全栈开发工程师，专注于构建现代化、高性能的 Web 应用程序。拥有丰富的前端和后端开发经验，擅长使用 Vue.js、React、Node.js 等主流技术栈进行高效开发。同时，我积极拓展在大数据领域的技术能力，熟悉 Hadoop、Spark、Kafka 等核心大数据生态组件，能够处理海量数据的采集、存储、计算与可视化。掌握 Java、Python 和 Scala 等大数据常用编程语言，并具备使用 Hive、HBase、Elasticsearch 等工具进行数据建模与分析的经验。我热爱学习新技术，注重代码质量、系统性能与用户体验，并致力于将大数据能力与 Web 应用深度融合，打造数据驱动的智能产品。'
 };
 </script>
 
