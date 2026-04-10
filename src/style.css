@@ -26,6 +26,14 @@
     scroll-behavior: smooth;
   }
   
+  /* 禁用文本选择工具栏 */
+  * {
+    -webkit-user-select: text;
+    -moz-user-select: text;
+    -ms-user-select: text;
+    user-select: text;
+  }
+  
   /* 自定义滚动条样式 */
   ::-webkit-scrollbar {
     width: 8px;

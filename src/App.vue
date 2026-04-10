@@ -21,9 +21,9 @@ const aboutMe = {
     <!-- 主要内容区域 - 占85%高度 -->
     <div class="flex-grow flex" style="height: 85vh;">
       <!-- 左侧列 (2/5 宽度) -->
-      <div class="w-2/5 flex flex-col justify-between p-8">
+      <div class="w-2/5 flex flex-col p-8">
         <!-- 上方：头像和简介模块 -->
-        <div class="flex flex-col items-center text-center">
+        <div class="flex flex-col items-center text-center h-1/2 justify-center">
           <!-- 头像 -->
           <div class="mb-6">
             <div class="w-32 h-32 rounded-full bg-[var(--color-primary-500)]/20 flex items-center justify-center overflow-hidden border-4 border-[var(--color-primary-500)]/30 mx-auto">
@@ -50,11 +50,11 @@ const aboutMe = {
         </div>
         
         <!-- 下方：关于我模块 -->
-        <div class="flex flex-col items-center text-center mt-8">
+        <div class="flex flex-col items-center text-center h-1/2 justify-center mt-4 border border-[var(--color-border)]/50 rounded-xl p-4">
           <h3 class="text-2xl font-bold mb-4 text-[var(--color-text-primary)]">
             {{ aboutMe.title }}
           </h3>
-          <p class="text-[var(--color-text-secondary)] leading-relaxed">
+          <p class="text-[var(--color-text-secondary)] leading-relaxed text-center">
             {{ aboutMe.description }}
           </p>
         </div>
@@ -91,7 +91,7 @@ const aboutMe = {
     <!-- 页脚 -->
     <footer class="py-4 border-t border-[var(--color-border)]">
       <div class="container mx-auto px-4 text-center text-[var(--color-text-secondary)]">
-        <p class="font-bold text-sm">ytp&copy; {{ new Date().getFullYear() }} 个人作品集・保留所有权利</p>
+        <p class="font-bold text-sm">&copy; {{ new Date().getFullYear() }} 个人作品集. 保留所有权利.</p>
       </div>
     </footer>
   </div>
